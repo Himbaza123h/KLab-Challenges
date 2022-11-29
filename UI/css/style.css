@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 85vh;
+    width: 70vw;
+    margin-top: 15vh;
+    margin-left: 20vw;
+    box-shadow: 0 4px 8px 0 rgba(146, 221, 239, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px
+}
+.left{
+    background-color: rgb(13, 108, 231);
+    display: flex;
+    border-radius: none;
+}
+
+.right{
+    background-color: #bac4e2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    margin-left: -6vw;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.cover{
+    position: absolute;
+    width: 60vw;
+    height: 600px;
+    left: 370px;
+    border-radius: 20px;
+    background-color: rgb(240, 243, 244);
+    
+}
+.header {
+    text-align: center;
+    padding-top: 10px;
+}
+.header h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: -3px
+}
+.header h4 {
+    color: gray;
+    margin-bottom: 25px
+}
+label{
+position: absolute;
+font-size: 15px;  
+left:-120px;
+color: black;
+}
+form p{
+position: absolute;
+font-size: 13px;  
+margin-top: -16px;
+left: 890px;
+color: gray; 
+}
+.pri{
+    position: absolute;
+    font-size: 10px;  
+    margin-top: 7px;
+    left: 910px;
+    color: gray;   
+}
+.pri span{
+    color: black;
+}
+
+.main {
+    text-align: center;
+}
+.main input, button {
+    width: 250px;
+    height: 35px;
+    border:none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.main input{
+    border-radius: 5px;
+}
+.main button {
+    padding-left: 0;
+    background-color: #0c51c7;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: -3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main span {
+    position: relative;
+}
+/*****************/
+
+@media(max-width: 700px){
+    section{
+        grid-template-columns: 1fr;
+        /* width: 100%; */
+        border-radius: none;
+    }
+    .left{
+        height:60vh;
+        width: 100vw;
+        margin:0px auto
+        }
+    .right{
+        width: 100%;
+        height: 100%;
+    }
+
+}

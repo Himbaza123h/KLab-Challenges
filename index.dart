@@ -80,12 +80,13 @@ void main() {
   print(
       "-----------------------------------------------------------------------");
 // Calculate the full price of all product combined and remove product that are under the 10 dollar
-  double AftertotalPrice = 0;
+
   items.removeWhere((item) => item['price'] < 10);
+  print(items);
+  double AftertotalPrice = 0;
   items.forEach((e) {
     AftertotalPrice += e['price'];
   });
-  print(items);
   print("And Their Price is");
   print(AftertotalPrice);
 }
