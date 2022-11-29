@@ -48,6 +48,8 @@ void main() {
       // '' +
       // cheap['price']
       );
+  print(
+      "-----------------------------------------------------------------------");
   // Filter and show the product that will be expensive in the array
 
   //  show the product that will be expensive in the array
@@ -62,9 +64,28 @@ void main() {
       expensive['name']);
 
 // Calculate the full price of all product combined
-
+  print("The full price of all product combined");
+  print(
+      "-----------------------------------------------------------------------");
+  double totalPrice = 0;
   items.forEach((e) {
-    var result = e['price'].reduce((sum, e) => sum + e);
-    print(result);
+    // var result = e['price'].reduce((sum, e) => sum + e);
+    totalPrice += e['price'];
   });
+  print(totalPrice);
+
+  // print(totalScores);
+  print(
+      "Full product combined and remove product that are under the 10 dollar");
+  print(
+      "-----------------------------------------------------------------------");
+// Calculate the full price of all product combined and remove product that are under the 10 dollar
+  double AftertotalPrice = 0;
+  items.removeWhere((item) => item['price'] < 10);
+  items.forEach((e) {
+    AftertotalPrice += e['price'];
+  });
+  print(items);
+  print("And Their Price is");
+  print(AftertotalPrice);
 }
