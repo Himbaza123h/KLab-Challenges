@@ -16,6 +16,124 @@ section{
     border-radius: none;
 }
 
+/* .circle{
+    background-color: rgb(13, 108, 231);
+    border-radius: 100%;
+} */
+/* .descr-div{
+    position: absolute;
+    top: 38vh;
+    left: 57.4vh;
+    height: 7.8cm;
+    width: 6.5cm;
+    /* z-index: 1; */
+*/
+.left-first{
+    background-color: #fff;
+    border-radius: 20px;
+}
+.left-second{
+    background-color: #fff;
+    border-radius: 20px;
+}
+.left-second p{
+    position: absolute;
+    top: 2vh;
+    right: 5vh;
+    font-size: 13px;
+    color: blue;
+    font-weight: bold;
+    z-index: 1;
+}
+.statistics{
+    position: absolute;
+    top: 44vh;
+    left: 58vh;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    z-index: 1; 
+}
+.left-first-1{
+    background-color: white;
+    border-radius: 10px;  
+}
+.left-second-2{
+    background-color: white;
+    border-radius: 10px;
+}
+.small-first-div{
+    position: absolute;
+    top: 51vh;
+    left: 40vw;
+    height: 2cm;
+    width: 3.5cm;
+    z-index: 1;
+}
+.small-second-div{
+    position: absolute;
+    top: 61vh;
+    left: 40vw;
+    height: 2cm;
+    width: 3.5cm;
+    z-index: 1;
+}
+.left-first-div{
+    margin-top: 200px;
+    margin-left: 120px;
+    height: 7cm;
+    width: 8.5cm;
+    opacity: 30%;
+    z-index: 1;
+}
+.left-second-div{
+    position: absolute;
+    top: 43vh;
+    left: 30.5vw;
+    height: 6cm;
+    width: 7.3cm;
+    
+}
+
+.left-first-1 .h{
+    position: absolute;
+    top: 0.5vh;
+    left: 1vw;
+    color: gray;
+    font-size: 10px;
+    z-index: 1;
+}
+.left-first-1 .v{
+    position: absolute;
+    top: 1.5vh;
+    left: 1vw;
+    font-size: 15px;
+    z-index: 1;
+}
+.left-second-2 .h{
+    position: absolute;
+    top: 0.5vh;
+    left: 1vw;
+    color: gray;
+    font-size: 10px;
+    z-index: 1;
+}
+.left-second-2 .v{
+    position: absolute;
+    top: 1.5vh;
+    left: 1vw;
+    font-size: 15px;
+    z-index: 1;
+}
+.left-second-2 .d{
+    position: absolute;
+    top: 6vh;
+    left: 3vw;
+    font-size: 8px;
+    color: gray;
+    z-index: 1;
+}
+
 .right{
     background-color: #bac4e2;
     display: flex;
@@ -30,7 +148,7 @@ section{
     height: 500px;
     margin-left: -6vw;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(240, 243, 244);
     z-index: 1;
 }
 .cover{
@@ -39,6 +157,7 @@ section{
     height: 600px;
     left: 370px;
     border-radius: 20px;
+    opacity: 80%;
     background-color: rgb(240, 243, 244);
     
 }
@@ -68,6 +187,13 @@ margin-top: -16px;
 left: 890px;
 color: gray; 
 }
+.checkbox{
+    position: absolute;
+    left: 61.5vw;
+    color: red;
+    top: 68.2vh;
+    z-index: 2;
+}
 .pri{
     position: absolute;
     font-size: 10px;  
@@ -93,6 +219,7 @@ color: gray;
     margin-bottom: 20px;
 }
 .main input{
+    background: #fff;
     border-radius: 5px;
 }
 .main button {
@@ -107,6 +234,9 @@ color: gray;
 }
 .main span {
     position: relative;
+}
+.under p{
+    color: gray;
 }
 /*****************/
 
